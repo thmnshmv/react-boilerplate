@@ -1,2 +1,2 @@
 # react-boilerplate
-React, SSR, PWA, Webpack 4, babel 7, ES6, JSS
+A simple template for launching a new project without any unnecessary things and structure.
