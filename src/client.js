@@ -22,3 +22,9 @@ class Main extends React.Component {
 Loadable.preloadReady().then(() => {
   hydrate(<Main />, target);
 });
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js');
+  });
+}
